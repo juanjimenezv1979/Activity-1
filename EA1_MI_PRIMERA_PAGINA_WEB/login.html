@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title><!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h4><br><i>Registrate por favor</i></h4>
+            <form> 
+                 <!-- nueva fila codigo emmet .row--> 
+                <div class="row" >
+                    <!-- nueva columna codigo emmet .col--> 
+                    <div class="col"input.field>
+                        <!-- crear input.text input.date input.contraseña input.file -->
+                        <label for="Nombres Completos">Nombres Completos</label>
+                        <input type="text" name="Nombres Completos" id="Nombres Completos">
+                    </div>
+                    <div class="col">
+                        <label for="Apellidos Completos">Apellidos Completos</label>
+                        <input type="text" name="Apellidos Completos" id="Apellidos Completos">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label for="Edad">Edad</label>
+                        <input type="number" name="Edad" id="Edad" min="18" max="50" placeholder="Edad">
+                    </div>
+                    <div class="col">
+                        <label for="Genero"><br> Genero: </label>
+                        <label>
+                            <input type="checkbox" class="Masculino" checked="checked" />
+                            <span>Masculino</span>
+                          </label>
+                          <label>
+                            <input type="checkbox" class="Femenino" checked="checked" />
+                            <span>Femenino</span>
+                          </label>
+                    </div>
+                    <div class="col">
+                        <label for="Fecha de Nacimiento">Fecha de Nacimiento</label>
+                        <input type="date" name="Fecha de Nacimiento"  id="Fecha de Nacimiento">
+                    </div>
+                </div>
+            </form>    
+    </div>
+</body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</html>
